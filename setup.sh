@@ -39,7 +39,7 @@ ask() {
 
 setup_venv() {
     echo "[IAM ZERO] Setting up a virtual environment in the .venv folder"
-    python -m venv .venv
+    python3 -m venv .venv
 
     echo "[IAM ZERO] Installing dependencies"
     ./.venv/bin/pip install -r requirements.txt
