@@ -52,5 +52,8 @@ fi
 echo "[IAM ZERO]"
 echo "[IAM ZERO] All done! To run the example, you can run the following commands:"
 echo "[IAM ZERO]"
+echo "[IAM ZERO] Ensure that we use the iamzero-test user by setting our environment variable as follows"
+echo "[IAM ZERO] export export AWS_PROFILE=iamzero-test"
+echo "[IAM ZERO]"
 echo "[IAM ZERO] source .venv/bin/activate"
 echo "[IAM ZERO] python iamzero_example.py"
