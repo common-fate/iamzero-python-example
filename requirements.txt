@@ -10,5 +10,5 @@ requests==2.25.1
 s3transfer==0.4.2
 six==1.16.0
 statsd==3.3.0
-urllib3==1.26.4
+urllib3==1.26.5
 wrapt==1.12.1
